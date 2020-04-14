@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PacetLoggerUI</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="settings">Settings</div>
+    <div class="close">Close</div>
+
+    <div id="main" class="container-fluid">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="speaker">
+                    <img src="img/logo-nostale.png" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row buttons">
+            <div class="col-xs-3">
+                <div class="button-packet receive-packet" iconic="receive-packet">
+                    <span class="button-icon"></span>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="button-packet send-packet" iconic="send-packet">
+                    <span class="button-icon"></span>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+                <div class="button-packet connect-tcp" iconic="connect-tcp">
+                    <span class="button-icon"></span>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+                <div class="button-packet zmode " iconic="battle">
+                    <span class="button-icon"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row buttons">
+            <div class="col-xs-3">
+                <div class="button-packet lever" iconic="lever">
+                    <span class="button-icon"></span>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="button-packet buff" iconic="buff">
+                    <span class="button-icon"></span>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+                <div class="button-packet close-client" iconic="buff">
+                    <span class="button-icon"></span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <input type="search" placeholder="Type TCP Port" id="tcpport" onChange="" value="" />
+        <input type="search" placeholder="Send Packet" id="sendpkt" onChange="" value="" />
+        <input type="search" placeholder="Receive Packet" id="receivepkt" onChange="" value="" />
+
+
+
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/clientTcp.js"></script>
+</body>
+
+</html>

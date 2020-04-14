@@ -1,0 +1,22 @@
+{
+  "name": "nospacketlogger-ui",
+  "version": "1.0.0",
+  "description": "Electron desktop app as an UI Interface for PacketLogger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yassine94/NosPacketLogger-UI.git"
+  },
+  "author": "kaktuskod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yassine94/NosPacketLogger-UI/issues"
+  },
+  "homepage": "https://github.com/Yassine94/NosPacketLogger-UI#readme",
+  "dependencies": {
+    "@types/nconf": "^0.10.0"
+  }
+}
